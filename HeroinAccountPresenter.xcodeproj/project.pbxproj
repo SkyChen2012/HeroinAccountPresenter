@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E4BEDD44781BDBDDAF79314 /* libPods-HeroinAccountPresenterUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8357A89767B1A0B293742D6 /* libPods-HeroinAccountPresenterUITests.a */; };
+		4651E40F212BAFF000DABEE7 /* RefreshTokenPresenterCompol.m in Sources */ = {isa = PBXBuildFile; fileRef = 4651E40E212BAFF000DABEE7 /* RefreshTokenPresenterCompol.m */; };
+		4651E412212BB83C00DABEE7 /* NSString+DictionaryValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4651E411212BB83C00DABEE7 /* NSString+DictionaryValue.m */; };
+		466AB4E02126CB9E00D4B22C /* VerificationPresenterCompl.m in Sources */ = {isa = PBXBuildFile; fileRef = 466AB4DF2126CB9E00D4B22C /* VerificationPresenterCompl.m */; };
+		46875736212CED6100F5EA8A /* RegisterPresenterCompol.m in Sources */ = {isa = PBXBuildFile; fileRef = 46875735212CED6100F5EA8A /* RegisterPresenterCompol.m */; };
+		46875739212CF05700F5EA8A /* ResetLoginPasswordPresenterCompol.m in Sources */ = {isa = PBXBuildFile; fileRef = 46875738212CF05700F5EA8A /* ResetLoginPasswordPresenterCompol.m */; };
+		46D73DE621266B42003B8920 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D73DE521266B42003B8920 /* AppDelegate.m */; };
+		46D73DE921266B42003B8920 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D73DE821266B42003B8920 /* ViewController.m */; };
+		46D73DEE21266B42003B8920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D73DED21266B42003B8920 /* Assets.xcassets */; };
+		46D73DF121266B42003B8920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D73DEF21266B42003B8920 /* LaunchScreen.storyboard */; };
+		46D73DF421266B42003B8920 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D73DF321266B42003B8920 /* main.m */; };
+		46D73DFE21266B42003B8920 /* HeroinAccountPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D73DFD21266B42003B8920 /* HeroinAccountPresenterTests.m */; };
+		46D73E0921266B42003B8920 /* HeroinAccountPresenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D73E0821266B42003B8920 /* HeroinAccountPresenterUITests.m */; };
+		46D73E1B21269629003B8920 /* LogInPresenterCompl.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D73E1A21269629003B8920 /* LogInPresenterCompl.m */; };
+		46D73E1D2126B015003B8920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D73E1C2126B015003B8920 /* Main.storyboard */; };
+		9EEAB998F806B72ACA696688 /* libPods-HeroinAccountPresenterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD800AD995913FA2403975A /* libPods-HeroinAccountPresenterTests.a */; };
+		EDF41A8054612F38B2AB9201 /* libPods-HeroinAccountPresenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD6050F56EEF72D5AF89A21 /* libPods-HeroinAccountPresenter.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46D73DFA21266B42003B8920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D73DD921266B42003B8920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D73DE021266B42003B8920;
+			remoteInfo = HeroinAccountPresenter;
+		};
+		46D73E0521266B42003B8920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D73DD921266B42003B8920 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D73DE021266B42003B8920;
+			remoteInfo = HeroinAccountPresenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CE82333C23E68343A1B8822 /* Pods-HeroinAccountPresenterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroinAccountPresenterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroinAccountPresenterTests/Pods-HeroinAccountPresenterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		269FF81F667F7660CD2C2A29 /* Pods-HeroinAccountPresenterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroinAccountPresenterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroinAccountPresenterTests/Pods-HeroinAccountPresenterTests.release.xcconfig"; sourceTree = "<group>"; };
+		360A7BA6E8605BA905DD6690 /* Pods-HeroinAccountPresenterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroinAccountPresenterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroinAccountPresenterUITests/Pods-HeroinAccountPresenterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4651E40D212BAFF000DABEE7 /* RefreshTokenPresenterCompol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RefreshTokenPresenterCompol.h; sourceTree = "<group>"; };
+		4651E40E212BAFF000DABEE7 /* RefreshTokenPresenterCompol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshTokenPresenterCompol.m; sourceTree = "<group>"; };
+		4651E410212BB83C00DABEE7 /* NSString+DictionaryValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DictionaryValue.h"; sourceTree = "<group>"; };
+		4651E411212BB83C00DABEE7 /* NSString+DictionaryValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DictionaryValue.m"; sourceTree = "<group>"; };
+		466AB4DE2126CB9E00D4B22C /* VerificationPresenterCompl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerificationPresenterCompl.h; sourceTree = "<group>"; };
+		466AB4DF2126CB9E00D4B22C /* VerificationPresenterCompl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerificationPresenterCompl.m; sourceTree = "<group>"; };
+		46875734212CED6100F5EA8A /* RegisterPresenterCompol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterPresenterCompol.h; sourceTree = "<group>"; };
+		46875735212CED6100F5EA8A /* RegisterPresenterCompol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterPresenterCompol.m; sourceTree = "<group>"; };
+		46875737212CF05700F5EA8A /* ResetLoginPasswordPresenterCompol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResetLoginPasswordPresenterCompol.h; sourceTree = "<group>"; };
+		46875738212CF05700F5EA8A /* ResetLoginPasswordPresenterCompol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResetLoginPasswordPresenterCompol.m; sourceTree = "<group>"; };
+		46D73DE121266B42003B8920 /* HeroinAccountPresenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroinAccountPresenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D73DE421266B42003B8920 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46D73DE521266B42003B8920 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46D73DE721266B42003B8920 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		46D73DE821266B42003B8920 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		46D73DED21266B42003B8920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D73DF021266B42003B8920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46D73DF221266B42003B8920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D73DF321266B42003B8920 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46D73DF921266B42003B8920 /* HeroinAccountPresenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroinAccountPresenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D73DFD21266B42003B8920 /* HeroinAccountPresenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroinAccountPresenterTests.m; sourceTree = "<group>"; };
+		46D73DFF21266B42003B8920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D73E0421266B42003B8920 /* HeroinAccountPresenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroinAccountPresenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D73E0821266B42003B8920 /* HeroinAccountPresenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroinAccountPresenterUITests.m; sourceTree = "<group>"; };
+		46D73E0A21266B42003B8920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D73E1821266EAA003B8920 /* HeroinAccountPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeroinAccountPresenter.h; sourceTree = "<group>"; };
+		46D73E1921269629003B8920 /* LogInPresenterCompl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInPresenterCompl.h; sourceTree = "<group>"; };
+		46D73E1A21269629003B8920 /* LogInPresenterCompl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInPresenterCompl.m; sourceTree = "<group>"; };
+		46D73E1C2126B015003B8920 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6F32F27B54A2FE22CCA7293A /* Pods-HeroinAccountPresenterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroinAccountPresenterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroinAccountPresenterUITests/Pods-HeroinAccountPresenterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8E4ECE872BFF16CBF415EF8C /* Pods-HeroinAccountPresenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroinAccountPresenter.release.xcconfig"; path = "Pods/Target Support Files/Pods-HeroinAccountPresenter/Pods-HeroinAccountPresenter.release.xcconfig"; sourceTree = "<group>"; };
+		95208C6A57135EF3327D4402 /* Pods-HeroinAccountPresenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeroinAccountPresenter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HeroinAccountPresenter/Pods-HeroinAccountPresenter.debug.xcconfig"; sourceTree = "<group>"; };
+		9AD800AD995913FA2403975A /* libPods-HeroinAccountPresenterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeroinAccountPresenterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD6050F56EEF72D5AF89A21 /* libPods-HeroinAccountPresenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeroinAccountPresenter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8357A89767B1A0B293742D6 /* libPods-HeroinAccountPresenterUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HeroinAccountPresenterUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D73DDE21266B42003B8920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF41A8054612F38B2AB9201 /* libPods-HeroinAccountPresenter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D73DF621266B42003B8920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEAB998F806B72ACA696688 /* libPods-HeroinAccountPresenterTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D73E0121266B42003B8920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E4BEDD44781BDBDDAF79314 /* libPods-HeroinAccountPresenterUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378DD7451BC2E52EAFC188DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCD6050F56EEF72D5AF89A21 /* libPods-HeroinAccountPresenter.a */,
+				9AD800AD995913FA2403975A /* libPods-HeroinAccountPresenterTests.a */,
+				F8357A89767B1A0B293742D6 /* libPods-HeroinAccountPresenterUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40F495D55558B2B8D46FB3B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95208C6A57135EF3327D4402 /* Pods-HeroinAccountPresenter.debug.xcconfig */,
+				8E4ECE872BFF16CBF415EF8C /* Pods-HeroinAccountPresenter.release.xcconfig */,
+				0CE82333C23E68343A1B8822 /* Pods-HeroinAccountPresenterTests.debug.xcconfig */,
+				269FF81F667F7660CD2C2A29 /* Pods-HeroinAccountPresenterTests.release.xcconfig */,
+				360A7BA6E8605BA905DD6690 /* Pods-HeroinAccountPresenterUITests.debug.xcconfig */,
+				6F32F27B54A2FE22CCA7293A /* Pods-HeroinAccountPresenterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46D73DD821266B42003B8920 = {
+			isa = PBXGroup;
+			children = (
+				46D73DE321266B42003B8920 /* HeroinAccountPresenter */,
+				46D73E1621266E6C003B8920 /* HeroinAccount */,
+				46D73DFC21266B42003B8920 /* HeroinAccountPresenterTests */,
+				46D73E0721266B42003B8920 /* HeroinAccountPresenterUITests */,
+				46D73DE221266B42003B8920 /* Products */,
+				40F495D55558B2B8D46FB3B0 /* Pods */,
+				378DD7451BC2E52EAFC188DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		46D73DE221266B42003B8920 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46D73DE121266B42003B8920 /* HeroinAccountPresenter.app */,
+				46D73DF921266B42003B8920 /* HeroinAccountPresenterTests.xctest */,
+				46D73E0421266B42003B8920 /* HeroinAccountPresenterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46D73DE321266B42003B8920 /* HeroinAccountPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				46D73E1821266EAA003B8920 /* HeroinAccountPresenter.h */,
+				46875737212CF05700F5EA8A /* ResetLoginPasswordPresenterCompol.h */,
+				46875738212CF05700F5EA8A /* ResetLoginPasswordPresenterCompol.m */,
+				46875734212CED6100F5EA8A /* RegisterPresenterCompol.h */,
+				46875735212CED6100F5EA8A /* RegisterPresenterCompol.m */,
+				46D73E1921269629003B8920 /* LogInPresenterCompl.h */,
+				46D73E1A21269629003B8920 /* LogInPresenterCompl.m */,
+				466AB4DE2126CB9E00D4B22C /* VerificationPresenterCompl.h */,
+				466AB4DF2126CB9E00D4B22C /* VerificationPresenterCompl.m */,
+				4651E40D212BAFF000DABEE7 /* RefreshTokenPresenterCompol.h */,
+				4651E40E212BAFF000DABEE7 /* RefreshTokenPresenterCompol.m */,
+			);
+			path = HeroinAccountPresenter;
+			sourceTree = "<group>";
+		};
+		46D73DFC21266B42003B8920 /* HeroinAccountPresenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				46D73DFD21266B42003B8920 /* HeroinAccountPresenterTests.m */,
+				46D73DFF21266B42003B8920 /* Info.plist */,
+			);
+			path = HeroinAccountPresenterTests;
+			sourceTree = "<group>";
+		};
+		46D73E0721266B42003B8920 /* HeroinAccountPresenterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46D73E0821266B42003B8920 /* HeroinAccountPresenterUITests.m */,
+				46D73E0A21266B42003B8920 /* Info.plist */,
+			);
+			path = HeroinAccountPresenterUITests;
+			sourceTree = "<group>";
+		};
+		46D73E1621266E6C003B8920 /* HeroinAccount */ = {
+			isa = PBXGroup;
+			children = (
+				46D73E1721266E78003B8920 /* recourse */,
+			);
+			path = HeroinAccount;
+			sourceTree = "<group>";
+		};
+		46D73E1721266E78003B8920 /* recourse */ = {
+			isa = PBXGroup;
+			children = (
+				4651E410212BB83C00DABEE7 /* NSString+DictionaryValue.h */,
+				4651E411212BB83C00DABEE7 /* NSString+DictionaryValue.m */,
+				46D73DE421266B42003B8920 /* AppDelegate.h */,
+				46D73DE521266B42003B8920 /* AppDelegate.m */,
+				46D73DE721266B42003B8920 /* ViewController.h */,
+				46D73DE821266B42003B8920 /* ViewController.m */,
+				46D73E1C2126B015003B8920 /* Main.storyboard */,
+				46D73DED21266B42003B8920 /* Assets.xcassets */,
+				46D73DEF21266B42003B8920 /* LaunchScreen.storyboard */,
+				46D73DF221266B42003B8920 /* Info.plist */,
+				46D73DF321266B42003B8920 /* main.m */,
+			);
+			path = recourse;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46D73DE021266B42003B8920 /* HeroinAccountPresenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D73E0D21266B42003B8920 /* Build configuration list for PBXNativeTarget "HeroinAccountPresenter" */;
+			buildPhases = (
+				0FADBD1024F8028AAC083DAD /* [CP] Check Pods Manifest.lock */,
+				46D73DDD21266B42003B8920 /* Sources */,
+				46D73DDE21266B42003B8920 /* Frameworks */,
+				46D73DDF21266B42003B8920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeroinAccountPresenter;
+			productName = HeroinAccountPresenter;
+			productReference = 46D73DE121266B42003B8920 /* HeroinAccountPresenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46D73DF821266B42003B8920 /* HeroinAccountPresenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D73E1021266B42003B8920 /* Build configuration list for PBXNativeTarget "HeroinAccountPresenterTests" */;
+			buildPhases = (
+				9EC81CFA897413B676A53E2B /* [CP] Check Pods Manifest.lock */,
+				46D73DF521266B42003B8920 /* Sources */,
+				46D73DF621266B42003B8920 /* Frameworks */,
+				46D73DF721266B42003B8920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D73DFB21266B42003B8920 /* PBXTargetDependency */,
+			);
+			name = HeroinAccountPresenterTests;
+			productName = HeroinAccountPresenterTests;
+			productReference = 46D73DF921266B42003B8920 /* HeroinAccountPresenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46D73E0321266B42003B8920 /* HeroinAccountPresenterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D73E1321266B42003B8920 /* Build configuration list for PBXNativeTarget "HeroinAccountPresenterUITests" */;
+			buildPhases = (
+				3A94A731AB82991630FEC268 /* [CP] Check Pods Manifest.lock */,
+				46D73E0021266B42003B8920 /* Sources */,
+				46D73E0121266B42003B8920 /* Frameworks */,
+				46D73E0221266B42003B8920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D73E0621266B42003B8920 /* PBXTargetDependency */,
+			);
+			name = HeroinAccountPresenterUITests;
+			productName = HeroinAccountPresenterUITests;
+			productReference = 46D73E0421266B42003B8920 /* HeroinAccountPresenterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46D73DD921266B42003B8920 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Benson;
+				TargetAttributes = {
+					46D73DE021266B42003B8920 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					46D73DF821266B42003B8920 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46D73DE021266B42003B8920;
+					};
+					46D73E0321266B42003B8920 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 46D73DE021266B42003B8920;
+					};
+				};
+			};
+			buildConfigurationList = 46D73DDC21266B42003B8920 /* Build configuration list for PBXProject "HeroinAccountPresenter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46D73DD821266B42003B8920;
+			productRefGroup = 46D73DE221266B42003B8920 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46D73DE021266B42003B8920 /* HeroinAccountPresenter */,
+				46D73DF821266B42003B8920 /* HeroinAccountPresenterTests */,
+				46D73E0321266B42003B8920 /* HeroinAccountPresenterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46D73DDF21266B42003B8920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D73DF121266B42003B8920 /* LaunchScreen.storyboard in Resources */,
+				46D73E1D2126B015003B8920 /* Main.storyboard in Resources */,
+				46D73DEE21266B42003B8920 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D73DF721266B42003B8920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D73E0221266B42003B8920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FADBD1024F8028AAC083DAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeroinAccountPresenter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A94A731AB82991630FEC268 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeroinAccountPresenterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EC81CFA897413B676A53E2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HeroinAccountPresenterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46D73DDD21266B42003B8920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4651E40F212BAFF000DABEE7 /* RefreshTokenPresenterCompol.m in Sources */,
+				4651E412212BB83C00DABEE7 /* NSString+DictionaryValue.m in Sources */,
+				46875739212CF05700F5EA8A /* ResetLoginPasswordPresenterCompol.m in Sources */,
+				46D73E1B21269629003B8920 /* LogInPresenterCompl.m in Sources */,
+				46875736212CED6100F5EA8A /* RegisterPresenterCompol.m in Sources */,
+				466AB4E02126CB9E00D4B22C /* VerificationPresenterCompl.m in Sources */,
+				46D73DE921266B42003B8920 /* ViewController.m in Sources */,
+				46D73DF421266B42003B8920 /* main.m in Sources */,
+				46D73DE621266B42003B8920 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D73DF521266B42003B8920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D73DFE21266B42003B8920 /* HeroinAccountPresenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D73E0021266B42003B8920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D73E0921266B42003B8920 /* HeroinAccountPresenterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46D73DFB21266B42003B8920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D73DE021266B42003B8920 /* HeroinAccountPresenter */;
+			targetProxy = 46D73DFA21266B42003B8920 /* PBXContainerItemProxy */;
+		};
+		46D73E0621266B42003B8920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D73DE021266B42003B8920 /* HeroinAccountPresenter */;
+			targetProxy = 46D73E0521266B42003B8920 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46D73DEF21266B42003B8920 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D73DF021266B42003B8920 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46D73E0B21266B42003B8920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46D73E0C21266B42003B8920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46D73E0E21266B42003B8920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95208C6A57135EF3327D4402 /* Pods-HeroinAccountPresenter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FS8UJ98NJS;
+				INFOPLIST_FILE = "$(SRCROOT)/HeroinAccount/recourse/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Benson.HeroinAccountPresenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46D73E0F21266B42003B8920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4ECE872BFF16CBF415EF8C /* Pods-HeroinAccountPresenter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FS8UJ98NJS;
+				INFOPLIST_FILE = "$(SRCROOT)/HeroinAccount/recourse/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Benson.HeroinAccountPresenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46D73E1121266B42003B8920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE82333C23E68343A1B8822 /* Pods-HeroinAccountPresenterTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q47C7H5298;
+				INFOPLIST_FILE = HeroinAccountPresenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Benson.HeroinAccountPresenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroinAccountPresenter.app/HeroinAccountPresenter";
+			};
+			name = Debug;
+		};
+		46D73E1221266B42003B8920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 269FF81F667F7660CD2C2A29 /* Pods-HeroinAccountPresenterTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q47C7H5298;
+				INFOPLIST_FILE = HeroinAccountPresenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Benson.HeroinAccountPresenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeroinAccountPresenter.app/HeroinAccountPresenter";
+			};
+			name = Release;
+		};
+		46D73E1421266B42003B8920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360A7BA6E8605BA905DD6690 /* Pods-HeroinAccountPresenterUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q47C7H5298;
+				INFOPLIST_FILE = HeroinAccountPresenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Benson.HeroinAccountPresenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroinAccountPresenter;
+			};
+			name = Debug;
+		};
+		46D73E1521266B42003B8920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F32F27B54A2FE22CCA7293A /* Pods-HeroinAccountPresenterUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q47C7H5298;
+				INFOPLIST_FILE = HeroinAccountPresenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Benson.HeroinAccountPresenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HeroinAccountPresenter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46D73DDC21266B42003B8920 /* Build configuration list for PBXProject "HeroinAccountPresenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D73E0B21266B42003B8920 /* Debug */,
+				46D73E0C21266B42003B8920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D73E0D21266B42003B8920 /* Build configuration list for PBXNativeTarget "HeroinAccountPresenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D73E0E21266B42003B8920 /* Debug */,
+				46D73E0F21266B42003B8920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D73E1021266B42003B8920 /* Build configuration list for PBXNativeTarget "HeroinAccountPresenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D73E1121266B42003B8920 /* Debug */,
+				46D73E1221266B42003B8920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D73E1321266B42003B8920 /* Build configuration list for PBXNativeTarget "HeroinAccountPresenterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D73E1421266B42003B8920 /* Debug */,
+				46D73E1521266B42003B8920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46D73DD921266B42003B8920 /* Project object */;
+}

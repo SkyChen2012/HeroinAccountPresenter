@@ -1,0 +1,43 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - HeroinNetworking (0.2.4):
+    - AFNetworking (~> 3.2.1)
+  - HYSwallowNet (0.0.12):
+    - AFNetworking (~> 3.2.1)
+    - HeroinNetworking (~> 0.2.3)
+    - HYSwallowNet/Category (= 0.0.12)
+  - HYSwallowNet/Category (0.0.12):
+    - AFNetworking (~> 3.2.1)
+    - HeroinNetworking (~> 0.2.3)
+
+DEPENDENCIES:
+  - HYSwallowNet (~> 0.0.12)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - HeroinNetworking
+    - HYSwallowNet
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  HeroinNetworking: 455794e9ff4d703d7d83041a6cbca1f05459a687
+  HYSwallowNet: c59231a43dd972678fdb7ce7995bd9fa53d770f2
+
+PODFILE CHECKSUM: 91249008d1726cb132bfddd5aebe271e8601c357
+
+COCOAPODS: 1.5.3
